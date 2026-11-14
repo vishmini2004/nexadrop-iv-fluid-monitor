@@ -2,6 +2,8 @@
 
 An IoT system that watches the fluid level of an IV bag and alerts caregivers before it runs low, replacing error-prone manual checking.
 
+**Demo video:** [Watch the NexaDrop working demo](https://drive.google.com/file/d/1Rc6bC1_8U4RWs3GKbfL-5zZ2i3JHIu8B/view?usp=sharing)
+
 ## How it works
 - **Load cell + HX711** measure the bag's weight, which maps to remaining fluid
 - **ESP8266 (ESP-01 Wi-Fi)** processes the data, shows it on a local **LCD** and sends alerts below a threshold
